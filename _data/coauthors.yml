@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"tan":
+  - firstname: ["Ying", "Y.", "Y. Tan"]
+    url: https://findanexpert.unimelb.edu.au/profile/28203-ying-tan
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"oetomo":
+  - firstname: ["Denny", "D.", "D. N.", "Denny Nurjanto"]
+    url: https://findanexpert.unimelb.edu.au/profile/188333-denny-oetomo
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"crocher":
+  - firstname: ["Vincent", "V.", "G. Crocher"]
+    url: https://findanexpert.unimelb.edu.au/profile/624368-vincent-crocher
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"fong":
+  - firstname: ["Justin", "J.", "J. M."]
+    url: https://findanexpert.unimelb.edu.au/profile/643118-justin-fong
+  
+"mohammadi":
+  - firstname: ["Alireza", "A."]
+    url: https://findanexpert.unimelb.edu.au/profile/344558-alireza-mohammadi
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"choong":
+  - firstname: ["Peter", "P."]
+    url: https://findanexpert.unimelb.edu.au/profile/2266-peter-choong
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"li":
+  - firstname: ["Wen", "W."]
+    url: https://findanexpert.unimelb.edu.au/profile/847810-wen-li
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"pu":
+  - firstname: ["Ye", "Y."]
+    url: https://findanexpert.unimelb.edu.au/profile/833203-ye-pu

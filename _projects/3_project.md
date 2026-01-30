@@ -6,6 +6,8 @@ img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
 category: work
+search_exclude: true
+sitemap: false
 ---
 
 Every project has a beautiful feature showcase page.

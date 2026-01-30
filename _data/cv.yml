@@ -1,189 +1,276 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Yangmengfei Xu
+  label: PhD Candidate in Robotics
+  email: yangmengfei@unimelb.edu.au
+  location: Melbourne, Australia
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: 
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: Murphy41
     - network: LinkedIn
-      username: example
+      username: murphyxu
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: The University of Melbourne
+    city: Parkville
+    region: Victoria
+    postalCode: 3010
+    countryCode: AU
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: The University of Melbourne
+        location: Melbourne, Australia
+        url: https://www.unimelb.edu.au/
+        area: Robotics
+        studyType: Doctor of Philosophy (PhD)
+        start_date: 2022
+        end_date: Present
         score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+        courses: 
+        highlights: >
+          Research Focus: Control systems and sensing technology in autonomous navigation for mobile robots in complex environments.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: The University of Melbourne
+        location: Melbourne, Australia
+        url: https://www.unimelb.edu.au/
+        area: Robotics
+        studyType: Master of Philosophy (MPhil)
+        score: "90/100"
+        start_date: 2019
+        end_date: 2022
+        highlights: >
+          Thesis: "Inducing human movement pattern change."
+          - Developed a novel robotic framework to induce human motor adaptation through manipulation of motor cost, without explicit error feedback.
+          - Conducted human subject experiments to validate the effectiveness of the proposed approach, demonstrating significant improvements in motor learning and adaptation.
+
+      - institution: The University of Melbourne
+        location: Melbourne, Australia
+        url: https://www.unimelb.edu.au/
+        area: Mechatronics Engineering
+        studyType: Master of Engineering (MEng)
+        start_date: 2016
+        end_date: 2018
         highlights:
-          - Description 1.
-          - Description 2.
+
+      - institution: Xi'an Jiaotong-Liverpool University
+        location: Suzhou, China
+        url: https://www.xjtlu.edu.cn/
+        area: Electrical Engineering
+        studyType: Bachelor of Engineering (BEng)
+        start_date: 2012
+        end_date: 2016
+        highlights:
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: The University of Melbourne & Boton Technology
+        position: Research Engineer
+        location: Melbourne, Australia
+        start_date: 2021
+        end_date: 2023
         highlights:
-          - Relativity
-          - Description 2.
+          - Led an industry university collaboration developing autonomous cleaning robots for material handling systems in the mining sector.
+          - Responsible for system design, autonomous navigation, computer vision, and AI decision-making modules for large-scale industrial deployment.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: The University of Melbourne
+        position: Course tutor and project supervisor
+        location: Melbourne, Australia
+        start_date: 2020
+        end_date: Present
+        summary: 
         highlights:
-          - Description 1.
-          - Description 2.
+          - Deliver tutorials and laboratory workshops across multiple engineering and robotics subjects; responsible for preparing teaching materials, designing assessment content, marking assignments and examinations, and providing structured feedback to students.
+          - Co-supervised more than 20 capstone and research projects, guiding students through project planning, experimental design, and implementation. Provided technical mentorship, coordinated weekly progress meeting, and supported students in achieving publishable research outcomes.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: AI Cubed Academy
+        position: Robotics Instructor
+        location: Melbourne, Australia
+        start_date: 2020
+        end_date: 2022
+        highlights:
+          - Delivered robotics and programming courses to K-12 students, fostering interest in STEM fields.
+          - Developed curriculum and hands-on projects to enhance student engagement and learning outcomes.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Ausdroid AI and Robotics Student Group
+        position: Founder and President
+        location: Melbourne, Australia
+        start_date: 2017
+        end_date: Present
+        summary: 
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Grew the community to 300 members, organizing regular meetups, workshops, and guest lectures from academic and industry professionals.
+          - Established partnerships with local and global tech companies to provide internship and project opportunities for members.
+
+      # - company: Suzhou Jinji Lake International Half Marathon & Dragon Boat Race
+      #   position: Volunteer Organiser, Xi'an Jiaotong-Liverpool University
+      #   location: Suzhou, China
+      #   start_date: 2013
+      #   end_date: 2014
+      #   summary: 
+      #   highlights:
+
+      - company: Suzhou Ocean Paradise Autistic Children's Rehabilitation Center
+        position: Volunteer
+        location: Suzhou, China
+        start_date: 2012-11
+        end_date: 2013-11
+        summary: 
+        highlights:
+
+      - company: Suzhou Full House Charity Shop
+        position: Committee Member
+        location: Suzhou, China
+        start_date: 2012-09
+        end_date: 2015-09
+        highlights:
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Engineering and IT Conference Travel Scholarship
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "The University of Melbourne"
+        date: 2025-10
+        awarder: The University of Melbourne
+        summary: 
 
-      - title: Max Planck Medal
+      - title: Sustainability Recognition Award
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "HRI"
+        date: 2025-3
+        awarder: 2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)
+        summary: 
+
+      - title: Rowden White Scholarship
+        authors:
+          - "The University of Melbourne"
+        date: 2022-12
+        awarder: The University of Melbourne
+        summary: 
+
+      - title: Melbourne Research Scholarship
+        authors:
+          - "The University of Melbourne"
+        date: 2022-9
+        awarder: The University of Melbourne
+        summary: 
+
+      - title: ICRA RoboMaster AI Challenge Third Prize
+        authors:
+          - "IEEE"
+        date: 2021, 2019
+        awarder: IEEE International Conference on Robotics and Automation (ICRA) 
+        summary: 
+
+      - title: Melbourne Research Scholarship
+        authors:
+          - "The University of Melbourne"
+        date: 2019-7
+        awarder: The University of Melbourne
+        summary: 
+
+      - title: ICRA RoboMaster AI Challenge Finalist
+        authors:
+          - "IEEE"
+        date: 2018
+        awarder: IEEE International Conference on Robotics and Automation (ICRA) 
+        summary: 
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Modeling Higher-order Human Beliefs Using the Justified Perspective Model
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Li, Wanchun and Zhang, Chenyuan and Li, Weijia and Hu, Guang and Xu, Yangmengfei
+        publisher: ACM CHI EA 25
+        releaseDate: 2025-04
+        url: https://doi.org/10.1145/3706599.3720223
+        summary: 
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: > 
+          From Isolation to Connection: Community Service Robots for Social Cohesion and Sustainability
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Xu, Yangmengfei and Tian, Suxuan and Wang, Guojing and Tang, Bin
+        publisher: ACM/IEEE HRI 2025
+        releaseDate: 2025-03
+        url: https://doi.org/10.1109/HRI61500.2025.10973824
+        summary: 
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: A Geometry-Based Distributed Connectivity Maintenance Algorithm for Discrete-time Multi-Agent Systems with Visual Sensing Constraints
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Li, Xiaoli and Fu, Jinyun and Liu, Mingliang and Xu, Yangmengfei and Tan, Ying and Xin, Yangbin and Pu, Ye and Oetomo, Denny
+        publisher: Unmanned Systems
+        releaseDate: 2024
+        url: https://doi.org/10.1142/S2301385024410097
+        summary: 
+
+      - title: On Active Disturbance Rejection Control for Unmanned Tracked Ground Vehicles with Nonsmooth Disturbances
+        authors:
+          - Liu, Mingliang and Xu, Yangmengfei and Lin, Xuteng and Tan, Ying and Pu, Ye and Li, Wen and Oetomo, Denny
+        publisher: Unmanned Systems
+        releaseDate: 2024
+        url: https://doi.org/10.1142/S2301385024500353
+        summary: 
+
+      - title: >
+          PyPose v0.6: The Imperative Programming Interface for Robotics
+        authors:
+          - Zitong Zhan and Xiangfu Li and Qihang Li and Haonan He and Abhinav Pandey and Haitao Xiao and Yangmengfei Xu and Xiangyu Chen and Kuan Xu and Kun Cao and Zhipeng Zhao and Zihan Wang and Huan Xu and Zihang Fang and Yutian Chen and Wentao Wang and Xu Fang and Yi Du and Tianhao Wu and Xiao Lin and Yuheng Qiu and Fan Yang and Jingnan Shi and Shaoshu Su and Yiren Lu and Taimeng Fu and Karthik Dantu and Jiajun Wu and Lihua Xie and Marco Hutter and Luca Carlone and Sebastian Scherer and Daning Huang and Yaoyu Hu and Junyi Geng and Chen Wang
+        publisher: IEEE/RSJ IROS 2023 Workshop
+        releaseDate: 2023
+        url: https://arxiv.org/abs/2309.13035
+        summary: 
+
+      - title: >
+          Inducing Human Motor Adaptation Without Explicit Error Feedback: A Motor Cost Approach
+        authors:
+          - Xu, Yangmengfei and Crocher, Vincent and Fong, Justin and Tan, Ying and Oetomo, Denny
+        publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+        releaseDate: 2021
+        url: https://doi.org/10.1109/TNSRE.2021.3096516
+        summary: 
+
+      - title: Magnetic-based Soft Tactile Sensors with Deformable Continuous Force Transfer Medium for Resolving Contact Locations in Robotic Grasping and Manipulation
+        authors:
+          - Mohammadi, Alireza and Xu, Yangmengfei and Tan, Ying and Choong, Peter and Oetomo, Denny
+        publisher: Sensors
+        releaseDate: 2019
+        url: https://www.mdpi.com/1424-8220/19/22/4925
+        summary: 
+
 
     Skills:
-      - name: Physics
+      - name: Programming
         level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        icon: 
+        keywords: Python, C++, C, MATLAB/Simulink, LabVIEW
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Tools and Frameworks
+        level: Master
+        icon: 
+        keywords: ROS/ROS2, PyTorch, CUDA, OpenCV, Docker, Git
 
-      - name: English
-        summary: "Fluent"
+      - name: CAD Software
+        level: Master
+        icon: 
+        keywords: SolidWorks
+        
+      - name: PCB Design
+        level: Intermediate
+        icon: 
+        keywords: Altium Designer, JLC EDA
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Languages
+        level: Fluent
+        icon: 
+        keywords: English, Chinese
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    # References:
+    #   - name: Professor Denny Oetomo
+    #     icon: fa-solid fa-university
+    #     reference: 
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #   - name: Professor Ying Tan
+    #     icon: fa-solid fa-university
+    #     reference: 

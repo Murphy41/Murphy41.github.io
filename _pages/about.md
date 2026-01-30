@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student in the <a href='https://blogs.unimelb.edu.au/human-robotics/' target='_blank'>Human Robotics Lab</a> at The University of Melbourne.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: photo2.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📍 311.49, Space Lab</p>
+    <p>Building 176, University of Melbourne, Parkville, VIC, 3010, Australia</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -19,16 +18,22 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 7 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I am **Yangmengfei (Murphy) Xu 徐杨梦飞**, a PhD student in the Human Robotics Lab at the University of Melbourne, advised by Prof. Denny Oetomo and Prof. Ying Tan.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie at the intersection of **Robotics, Control Systems, Human-Robot Interaction and Human-Centered AI**. I aim to develop intelligent autonomous systems that can robustly operate in real-world environments and intuitively collaborate with humans. My research spans learning-based control, advanced sensing, intelligent hardware, and human-aware reasoning.
+<br>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Education
+
+* **Ph.D. in Engineering and IT**, The University of Melbourne, Australia (2022 - Present)
+* **M.Phil. in Engineering and IT**, The University of Melbourne, Australia (2019 - 2022)
+* **M.Eng. in Mechatronics**, The University of Melbourne, Australia (2016 - 2018)
+* **B.Eng. in Electrical Engineering**, Xi’an Jiaotong-Liverpool University, China (2012 - 2016)
