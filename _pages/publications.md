@@ -5,6 +5,7 @@ title: publications
 description:
 nav: true
 nav_order: 2
+og_image: /assets/img/photo2.PNG
 ---
 
 <!-- _pages/publications.md -->
