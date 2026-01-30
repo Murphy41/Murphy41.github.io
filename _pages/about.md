@@ -6,7 +6,7 @@ subtitle: PhD Student in the <a href='https://blogs.unimelb.edu.au/human-robotic
 
 profile:
   align: right
-  image: photo2.png
+  image: photo2.PNG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>📍 311.49, Space Lab</p>
