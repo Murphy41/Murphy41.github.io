@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "Yangmengfei Xu, PhD Student in Robotics at the University of Melbourne.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
