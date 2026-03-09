@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-04'
+  last_updated: '2026-03-09'
 papers:
   xGVR6cQAAAAJ:Tyk-4Ss8FVUC:
     citations: 2
@@ -34,6 +34,6 @@ papers:
     title: 'From Isolation to Connection: Community Service Robots for Social Cohesion and Sustainability'
     year: '2025'
   xGVR6cQAAAAJ:zYLM7Y9cAGgC:
-    citations: 4
+    citations: 5
     title: On active disturbance rejection control for unmanned tracked ground vehicles with nonsmooth disturbances
     year: '2024'
