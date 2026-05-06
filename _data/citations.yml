@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-05-06'
 papers:
   xGVR6cQAAAAJ:Tyk-4Ss8FVUC:
-    citations: 3
+    citations: 4
     title: A Geometry-Based Distributed Connectivity Maintenance Algorithm for Discrete-time Multi-Agent Systems with Visual Sensing Constraints
     year: '2024'
   xGVR6cQAAAAJ:W7OEmFMy1HYC:
@@ -26,7 +26,7 @@ papers:
     title: 'Inducing human motor adaptation without explicit error feedback: A motor cost approach'
     year: '2021'
   xGVR6cQAAAAJ:u5HHmVD_uO8C:
-    citations: 56
+    citations: 58
     title: Magnetic-based soft tactile sensors with deformable continuous force transfer medium for resolving contact locations in robotic grasping and manipulation
     year: '2019'
   xGVR6cQAAAAJ:ufrVoPGSRksC:
