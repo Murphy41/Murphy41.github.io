@@ -97,7 +97,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-beyond-static-assumptions-the-predictive-justified-perspective-model-for-epistemic-planning-has-been-accepted-to-the-socs-2026",
           title: '📄 Our paper “Beyond Static Assumptions: the Predictive Justified Perspective Model for Epistemic...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-melbourne-design-week-wayzfinding",
+          title: 'Melbourne Design Week: Wayzfinding',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-24-melbournedesignweek.html";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
