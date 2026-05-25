@@ -91,7 +91,13 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-31-iros-conf.html";
-            },},{
+            },},{id: "news-our-paper-motor-cost-re-optimization-in-indirect-human-movement-pattern-adaptation-has-been-accepted-to-the-ifac-world-congress-2026",
+          title: '📄 Our paper “Motor Cost Re-Optimization in Indirect Human Movement Pattern Adaptation” has...',
+          description: "",
+          section: "News",},{id: "news-our-paper-beyond-static-assumptions-the-predictive-justified-perspective-model-for-epistemic-planning-has-been-accepted-to-the-socs-2026",
+          title: '📄 Our paper “Beyond Static Assumptions: the Predictive Justified Perspective Model for Epistemic...',
+          description: "",
+          section: "News",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
