@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-During **Melbourne Design Week**, I was invited by curator and collaborator **Luna Tian** to contribute a demonstration of the **Neighbor Koala** robot prototype to **_Wayzfinding_** (_寻路_), a group exhibition held at the RMIT Garden Building on 23-24 May 2026.
+During [**Melbourne Design Week**](https://designweek.melbourne/event/wayzfinding/), I was invited by curator and collaborator [**Suxuan (Luna) Tian**](https://www.linkedin.com/in/suxuan-tian-932b13267/) to contribute a demonstration of the **Neighbor Koala** robot prototype to **_Wayzfinding_** (_寻路_), a design exhibition and workshop program held at the RMIT Garden Building, Level 6, on 23-24 May 2026.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,9 +19,9 @@ During **Melbourne Design Week**, I was invited by curator and collaborator **Lu
 
 _Wayzfinding_ asks how we find direction and belonging in a world where cities, relationships, and identities are constantly shifting. Rather than treating wayfinding only as maps, signs, and efficient arrival, the exhibition frames it as a social and emotional process: paths are formed through perception, conversation, and encounters with others.
 
-For this exhibition, I presented the robot from my PhD/HRI work on [community robots](https://dl.acm.org/doi/10.5555/3721488.3721822). In this context, the robot was not shown simply as an automation tool or a service machine. Instead, it became a gentle interactive medium for asking how non-human agents might help people approach one another, open conversations, and rethink connection in public and community spaces.
+For this exhibition, I presented the robot from my HRI2025 work on [community robots](https://dl.acm.org/doi/10.5555/3721488.3721822). In this context, the robot was not shown simply as an automation tool or a service machine. Instead, it became a gentle interactive medium for asking how non-human agents might help people approach one another, open conversations, and rethink connection in public and community spaces.
 
-Bringing an HRI prototype into a design exhibition was a valuable shift in perspective. Conversations with designers, artists, and visitors moved beyond familiar engineering questions of efficiency, performance, and function, and opened up richer discussions about care, trust, public space, material expression, and social imagination.
+Bringing an robot prototype into a design exhibition was a valuable shift in perspective. Conversations with designers, artists, and visitors moved beyond familiar engineering questions of efficiency, performance, and function, and opened up richer discussions about care, trust, public space, material expression, and social imagination.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
