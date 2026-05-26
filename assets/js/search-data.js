@@ -99,7 +99,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-melbourne-design-week-wayzfinding",
           title: 'Melbourne Design Week: Wayzfinding',
-          description: "",
+          description: "A short recap of presenting the Neighbor Koala community robot at Wayzfinding during Melbourne Design Week, and reflecting on robotics through design, art, and public-space conversations.",
           section: "News",handler: () => {
               window.location.href = "/news/2026-05-24-melbournedesignweek.html";
             },},{
