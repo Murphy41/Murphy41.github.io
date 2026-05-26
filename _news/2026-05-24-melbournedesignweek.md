@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Melbourne Design Week: Wayzfinding"
+description: >
+  A short recap of presenting the Neighbor Koala community robot at Wayzfinding during Melbourne Design Week, and reflecting on robotics through design, art, and public-space conversations.
+og_image: /assets/img/MDW.jpg
 date: 2026-05-24
 inline: false
 related_posts: false
