@@ -2,7 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: >
+  Selected robotics, control, human-robot interaction, and creative technology projects by Yangmengfei Xu.
+og_image: /assets/img/photo2-og.jpg
 nav: false
 nav_order: 99
 sitemap: false            # Fixed typo (was site_map)

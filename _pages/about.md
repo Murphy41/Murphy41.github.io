@@ -2,6 +2,9 @@
 layout: about
 title: about
 permalink: /
+description: >
+  Yangmengfei (Murphy) Xu is a PhD student in robotics at the University of Melbourne, working on robotics, control systems, human-robot interaction, and human-centered AI.
+og_image: /assets/img/photo2-og.jpg
 subtitle: PhD Student in the <a href='https://blogs.unimelb.edu.au/human-robotics/' target='_blank'>Human Robotics Lab</a> at The University of Melbourne.
 
 profile:

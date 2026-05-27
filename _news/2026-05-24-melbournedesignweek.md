@@ -3,7 +3,7 @@ layout: post
 title: "Melbourne Design Week: Wayzfinding"
 description: >
   A short recap of presenting the Neighbor Koala community robot at Wayzfinding during Melbourne Design Week, and reflecting on robotics through design, art, and public-space conversations.
-og_image: /assets/img/MDW1.jpg
+og_image: /assets/img/MDW1-og.jpg
 date: 2026-05-24
 inline: false
 related_posts: false
@@ -24,7 +24,7 @@ _Wayzfinding_ asks how we find direction and belonging in a world where cities, 
 
 For this exhibition, I presented the robot from my HRI2025 work on [community robots](https://dl.acm.org/doi/10.5555/3721488.3721822). In this context, the robot was not shown simply as an automation tool or a service machine. Instead, it became a gentle interactive medium for asking how non-human agents might help people approach one another, open conversations, and rethink connection in public and community spaces.
 
-Bringing an robot prototype into a design exhibition was a valuable shift in perspective. Conversations with designers, artists, and visitors moved beyond familiar engineering questions of efficiency, performance, and function, and opened up richer discussions about care, trust, public space, material expression, and social imagination.
+Bringing a robot prototype into a design exhibition was a valuable shift in perspective. Conversations with designers, artists, and visitors moved beyond familiar engineering questions of efficiency, performance, and function, and opened up richer discussions about care, trust, public space, material expression, and social imagination.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
