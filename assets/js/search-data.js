@@ -11,21 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "Publications by Yangmengfei Xu on robotics, human-robot interaction, control systems, human movement adaptation, and human-centered AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-news",
           title: "news",
-          description: "",
+          description: "News and updates from Yangmengfei Xu, including research publications, conferences, fieldwork, robotics demonstrations, and community engagement.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Yangmengfei Xu, PhD Student in Robotics at the University of Melbourne.",
+          description: "Yangmengfei Xu, PhD student in robotics at the University of Melbourne.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -50,7 +50,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-site-investigation-in-western-australia",
           title: 'Site Investigation in Western Australia',
-          description: "",
+          description: "A field investigation trip to a remote Western Australian mine site for my PhD research on mining robotics and autonomous systems.",
           section: "News",handler: () => {
               window.location.href = "/news/2024-03-20-wa.html";
             },},{id: "news-my-5th-year-volunteering-had-a-blast-demoing-the-emu-rehabilitation-robot-at-both-the-university-open-day-and-mechanical-engineering-open-house",
@@ -58,7 +58,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-field-deployment-amp-my-fifo-experience",
           title: 'Field Deployment &amp;amp; My FIFO Experience',
-          description: "",
+          description: "Reflections from a field deployment at a remote Western Australian mine site, including data collection for my PhD and a week of FIFO life.",
           section: "News",handler: () => {
               window.location.href = "/news/2024-09-05-wa.html";
             },},{id: "news-big-congrats-to-my-capstone-students-chethaka-jarod-and-xinyu-for-winning-the-mechatronics-engineering-merit-award-at-the-2024-endeavour-exhibition",
@@ -72,12 +72,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-hri-2025-trip-amp-sustainability-recognition",
           title: 'HRI 2025 Trip &amp;amp; Sustainability Recognition',
-          description: "",
+          description: "A recap of attending HRI 2025 in Melbourne, presenting our community robot work, and receiving Sustainability Recognition in the Student Design Challenge.",
           section: "News",handler: () => {
               window.location.href = "/news/2025-03-07-hri-conf.html";
             },},{id: "news-sharing-our-research-on-modeling-higher-order-human-beliefs-at-chi-2025",
           title: 'Sharing Our Research on Modeling Higher-order Human Beliefs at CHI 2025',
-          description: "",
+          description: "A recap of sharing our CHI 2025 Late-Breaking Work on modeling higher-order human beliefs with the Justified Perspective Model in Yokohama.",
           section: "News",handler: () => {
               window.location.href = "/news/2025-05-01-chi-conf.html";
             },},{id: "news-i-had-a-blast-volunteering-at-both-the-uom-open-day-and-the-mechanical-engineering-open-house-this-week-it-was-great-representing-ausdroid-and-the-human-robotics-lab-demoing-our-robots-and-connecting-with-prospective-students-and-the-public",
@@ -88,7 +88,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-workshop-presentation-amp-highlights-from-iros-2025",
           title: 'Workshop Presentation &amp;amp; Highlights from IROS 2025',
-          description: "",
+          description: "Highlights from IROS 2025 in Hangzhou, including my workshop presentation, the industry expo, and a short trip through Shanghai and Suzhou.",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-31-iros-conf.html";
             },},{id: "news-our-paper-motor-cost-re-optimization-in-indirect-human-movement-pattern-adaptation-has-been-accepted-to-the-ifac-world-congress-2026",
