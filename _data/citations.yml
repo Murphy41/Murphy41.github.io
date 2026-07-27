@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-07-27'
 papers:
   xGVR6cQAAAAJ:Tyk-4Ss8FVUC:
     citations: 4
@@ -26,7 +26,7 @@ papers:
     title: 'Inducing human motor adaptation without explicit error feedback: A motor cost approach'
     year: '2021'
   xGVR6cQAAAAJ:u5HHmVD_uO8C:
-    citations: 60
+    citations: 61
     title: Magnetic-based soft tactile sensors with deformable continuous force transfer medium for resolving contact locations in robotic grasping and manipulation
     year: '2019'
   xGVR6cQAAAAJ:ufrVoPGSRksC:
@@ -34,6 +34,6 @@ papers:
     title: 'From Isolation to Connection: Community Service Robots for Social Cohesion and Sustainability'
     year: '2025'
   xGVR6cQAAAAJ:zYLM7Y9cAGgC:
-    citations: 6
+    citations: 7
     title: On active disturbance rejection control for unmanned tracked ground vehicles with nonsmooth disturbances
     year: '2024'
