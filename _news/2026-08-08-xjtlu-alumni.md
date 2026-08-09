@@ -35,12 +35,35 @@ This closely reflects how I have come to think about research. What we *can* bui
 
 It was a pleasure to reconnect with the XJTLU community in Melbourne and to hear the very different paths that fellow alumni have taken since graduation. Returning to this community ten years after completing my undergraduate studies also gave me a chance to reflect on how my own understanding of engineering and research has evolved—from learning how to build technologies to thinking more carefully about how those technologies participate in the world around us.
 
+<style>
+.xjtlu-pair-img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+</style>
+
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/XJTLU20certificate.JPG" title="With Professor Youmin Xi" alt="Yangmengfei Xu with Professor Youmin Xi at the XJTLU alumni gathering in Melbourne" class="img-fluid rounded z-depth-1" caption="With Professor Youmin Xi after the alumni gathering." %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid
+            loading="lazy"
+            path="assets/img/XJTLU20certificate.JPG"
+            title="With Professor Youmin Xi"
+            alt="Yangmengfei Xu with Professor Youmin Xi at the XJTLU alumni gathering in Melbourne"
+            class="img-fluid rounded z-depth-1 xjtlu-pair-img"
+            caption="With Professor Youmin Xi."
+        %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/XJTLU20group.JPG" title="XJTLU alumni gathering in Melbourne" alt="XJTLU alumni and guests at the Melbourne alumni gathering" class="img-fluid rounded z-depth-1" caption="XJTLU alumni and guests in Melbourne, August 2026." %}
+
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid
+            loading="lazy"
+            path="assets/img/XJTLU20group.JPG"
+            title="XJTLU alumni gathering in Melbourne"
+            alt="XJTLU alumni and guests at the Melbourne gathering"
+            class="img-fluid rounded z-depth-1 xjtlu-pair-img"
+            caption="XJTLU alumni and guests in Melbourne."
+        %}
     </div>
 </div>
 
