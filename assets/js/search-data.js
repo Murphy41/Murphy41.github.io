@@ -102,6 +102,14 @@ ninja.data = [{
           description: "A short recap of presenting the Neighbor Koala community robot at Wayzfinding during Melbourne Design Week, and reflecting on robotics through design, art, and public-space conversations.",
           section: "News",handler: () => {
               window.location.href = "/news/2026-05-24-melbournedesignweek.html";
+            },},{id: "news-our-paper-spatial-iterative-learning-control-for-non-holonomic-robotics-with-input-saturation-has-been-accepted-to-the-ieee-asme-transactions-on-mechatronics-tmech",
+          title: '📄 Our paper “Spatial Iterative Learning Control for Non-Holonomic Robotics with Input Saturation”...',
+          description: "",
+          section: "News",},{id: "news-sharing-my-research-journey-with-the-xjtlu-alumni-community-in-melbourne",
+          title: 'Sharing My Research Journey with the XJTLU Alumni Community in Melbourne',
+          description: "A reflection on sharing my robotics research journey with the XJTLU alumni community in Melbourne, and joining Professor Youmin Xi in a roundtable discussion on AI, education, and humanistic perspectives.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-08-xjtlu-alumni.html";
             },},{
         id: 'social-cv',
         title: 'CV',
