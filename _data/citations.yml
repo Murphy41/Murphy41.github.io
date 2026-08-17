@@ -1,13 +1,13 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-17'
 papers:
   xGVR6cQAAAAJ:Tyk-4Ss8FVUC:
-    citations: 4
+    citations: 3
     title: A Geometry-Based Distributed Connectivity Maintenance Algorithm for Discrete-time Multi-Agent Systems with Visual Sensing Constraints
     year: '2024'
   xGVR6cQAAAAJ:W7OEmFMy1HYC:
-    citations: 9
-    title: 'PyPose v0. 6: The imperative programming interface for robotics'
+    citations: 11
+    title: 'Pypose v0. 6: The imperative programming interface for robotics'
     year: '2023'
   xGVR6cQAAAAJ:WF5omc3nYNoC:
     citations: 1
@@ -21,12 +21,16 @@ papers:
     citations: 0
     title: Inducing human movement pattern change
     year: '2022'
+  xGVR6cQAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: Motor Cost Re-Optimization in Indirect Human Movement Pattern Adaptation
+    year: Unknown Year
   xGVR6cQAAAAJ:u-x6o8ySG0sC:
-    citations: 9
+    citations: 10
     title: 'Inducing human motor adaptation without explicit error feedback: A motor cost approach'
     year: '2021'
   xGVR6cQAAAAJ:u5HHmVD_uO8C:
-    citations: 61
+    citations: 62
     title: Magnetic-based soft tactile sensors with deformable continuous force transfer medium for resolving contact locations in robotic grasping and manipulation
     year: '2019'
   xGVR6cQAAAAJ:ufrVoPGSRksC:
