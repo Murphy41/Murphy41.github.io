@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 description: >
-  Yangmengfei (Murphy) Xu is a PhD student in robotics at the University of Melbourne, working on robotics, control systems, human-robot interaction, and human-centered AI.
+  PhD researcher in robotics and control at the University of Melbourne, with interests in human-robot interaction and human-aware planning.
 og_image: /assets/img/photo2-og.jpg
 subtitle: PhD Student in the <a href='https://blogs.unimelb.edu.au/human-robotics/' target='_blank'>Human Robotics Lab</a> at The University of Melbourne.
 
@@ -31,7 +31,9 @@ latest_posts:
 
 Hi, I am **Yangmengfei (Murphy) Xu 徐杨梦飞**, a PhD student in the Human Robotics Lab at the University of Melbourne, advised by Prof. Denny Oetomo and Prof. Ying Tan.
 
-My research interests lie at the intersection of **Robotics, Control Systems, Human-Robot Interaction and Human-Centered AI**. I aim to develop intelligent autonomous systems that can robustly operate in real-world environments and intuitively collaborate with humans. My research spans learning-based control, advanced sensing, intelligent hardware, and human-aware reasoning.
+My research focuses on **learning and control for robotic systems**, with broader interests in **human-robot interaction and human-aware planning**. I am particularly interested in how robots can learn from repeated experience, adapt to uncertainty, and interact effectively with humans and other agents.
+
+My current work includes **iterative learning control, adaptive and learning-based control, and human-centred robot planning and interaction**, with applications in autonomous and interactive robotic systems.
 <br>
 
 ### Education
