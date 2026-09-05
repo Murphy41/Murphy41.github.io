@@ -68,8 +68,8 @@ layout: default
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">
-          {% social_links %}
-          {% if site.data.xiaohongshu.qr_image and site.data.xiaohongshu.account %}
+          {% include social-links.liquid %}
+          {% if site.data.xiaohongshu.qr_image %}
             {% include social-qr.liquid %}
           {% endif %}
         </div>

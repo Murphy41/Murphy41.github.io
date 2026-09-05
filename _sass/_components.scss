@@ -215,22 +215,34 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-.social-qr-trigger {
-  border: 0;
-  padding: 0;
-  background: transparent;
-  color: var(--global-text-color);
-  cursor: pointer;
-  vertical-align: baseline;
+.social .contact-icons .social-brand-icon {
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0 0 0.5rem;
+  vertical-align: middle;
+  fill: currentColor;
+}
 
-  svg {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
+.social a:has(.social-brand-icon),
+.social-qr-trigger {
+  color: var(--global-text-color);
+  text-decoration: none;
 
   &:hover {
     color: var(--global-theme-color);
   }
+}
+
+.social-qr-trigger {
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  vertical-align: baseline;
 
   &:focus-visible {
     outline: 2px solid var(--global-theme-color);
@@ -240,49 +252,45 @@ ul.task-list input[type="checkbox"] {
 
 .social-qr-modal {
   box-sizing: border-box;
-  width: min(25rem, calc(100% - 2rem));
+  width: fit-content;
+  max-width: calc(100vw - 2rem);
   max-height: calc(100dvh - 2rem);
   margin: auto;
-  overflow: auto;
-  padding: 2.5rem 1.5rem 1.5rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1rem;
+  padding: 2.75rem 0.75rem 0.75rem;
+  border: 0;
+  border-radius: 0.75rem;
   background: var(--global-bg-color);
   color: var(--global-text-color);
-  text-align: center;
   font-size: 1rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
 
   &::backdrop {
-    background: rgba(0, 0, 0, 0.55);
-  }
-
-  h2 {
-    font-size: 1.35rem;
-  }
-
-  p {
-    overflow-wrap: anywhere;
+    background: rgba(0, 0, 0, 0.6);
   }
 
   .social-qr-image {
     display: block;
-    width: 100%;
-    max-width: 17rem;
+    width: auto;
     height: auto;
-    margin: 1rem auto;
+    max-width: min(20rem, calc(100vw - 3.5rem));
+    max-height: min(70vh, calc(100dvh - 6rem));
+    object-fit: contain;
+    margin: 0 auto;
+    border-radius: 0.25rem;
   }
 
   .social-qr-close {
     position: absolute;
-    top: 0.25rem;
-    right: 0.25rem;
+    top: 0;
+    right: 0;
     width: 2.75rem;
     height: 2.75rem;
+    padding: 0;
     border: 0;
     background: transparent;
     color: inherit;
     font-size: 1.75rem;
+    line-height: 1;
     cursor: pointer;
   }
 }

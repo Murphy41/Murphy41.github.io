@@ -1,4 +1,4 @@
-# Set both fields to enable the About-page icon. Use the original QR image exported from the app.
+# Set qr_image to enable the About-page icon. The profile card already includes account details.
 qr_image: /assets/img/xhs.JPG
 account: 11891646766
 nickname: Murphy

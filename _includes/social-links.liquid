@@ -1,0 +1,3 @@
+{% capture links %}{% social_links %}{% endcapture %}
+{% capture linkedin_icon %}{% include social-icons/linkedin.liquid %}{% endcapture %}
+{{ links | replace: '<i class="fa-brands fa-linkedin"></i>', linkedin_icon }}
