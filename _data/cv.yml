@@ -1,10 +1,10 @@
 cv:
-  name: Yangmengfei Xu
+  name: Yangmengfei (Murphy) Xu
   label: PhD Candidate in Robotics
   email: yangmengfei@unimelb.edu.au
   location: Melbourne, Australia
   image: ""
-  summary: 
+  summary:
 
   social_networks:
     - network: GitHub
@@ -24,25 +24,29 @@ cv:
       - institution: The University of Melbourne
         location: Melbourne, Australia
         url: https://www.unimelb.edu.au/
-        area: Robotics
+        area: Engineering and IT
         studyType: Doctor of Philosophy (PhD)
         start_date: 2022
         end_date: Present
         score: ""
-        courses: 
-        highlights: >
-          Research Focus: Control systems and sensing technology in autonomous navigation for mobile robots in complex environments.
+        courses:
+        highlights:
+          - "Expected thesis submission: late 2026."
+          - "Research Focus: Control systems and sensing technology in autonomous navigation for mobile robots in complex environments."
+          - Rowden White Scholarship (awarded to the highest-ranked applicant in the department; one recipient per year).
+          - Melbourne Research Scholarship.
 
       - institution: The University of Melbourne
         location: Melbourne, Australia
         url: https://www.unimelb.edu.au/
-        area: Robotics
+        area: Engineering and IT
         studyType: Master of Philosophy (MPhil)
         score: "90/100"
         start_date: 2019
         end_date: 2022
-        highlights: >
-          Thesis: "Inducing human movement pattern change."
+        highlights:
+          - 'Thesis: "Inducing human movement pattern change."'
+          - Melbourne Research Scholarship (Fee Offset).
           - Developed a novel robotic framework to induce human motor adaptation through manipulation of motor cost, without explicit error feedback.
           - Conducted human subject experiments to validate the effectiveness of the proposed approach, demonstrating significant improvements in motor learning and adaptation.
 
@@ -55,14 +59,49 @@ cv:
         end_date: 2018
         highlights:
 
+      - institution: The University of Liverpool
+        area: Electrical & Electronic Engineering
+        studyType: Bachelor of Engineering (BEng)
+        end_date: 2016
+
       - institution: Xi'an Jiaotong-Liverpool University
         location: Suzhou, China
         url: https://www.xjtlu.edu.cn/
-        area: Electrical Engineering
+        area: Electrical & Electronic Engineering
         studyType: Bachelor of Engineering (BEng)
         start_date: 2012
         end_date: 2016
         highlights:
+
+    Research Experience:
+      - name: Control and Planning Design for Autonomous Robots in Mining Engineering
+        summary: Researcher
+        highlights:
+          - Developed robust control and planning methods for autonomous and multi-robot systems, including Spatial Iterative Learning Control, Active Disturbance Rejection Control for non-holonomic robots, and geometry-based distributed connectivity maintenance for visual-sensing agents.
+          - Demonstrated disturbance rejection in harsh environments (Unmanned Systems, 2023), connectivity preservation under uncertainty (Unmanned Systems, 2024), and spatial learning control under input saturation and variable task duration (IEEE/ASME Transactions on Mechatronics, 2026).
+
+      - name: Human Motor Adaptation in Rehabilitation Robotics
+        summary: Researcher
+        highlights:
+          - Designed and conducted human experiments to induce implicit motor adaptation through energy-based cost shaping using a manipulandum platform; developed the Indirect Shaping Control framework for movement retraining.
+          - Demonstrated indirect and implicit motor adaptation through robot-generated force fields (IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2021), and established a quantitative link between human motor cost and movement adaptation (IFAC, 2026).
+
+      - name: Autonomous Community-Sharing Service Robot
+        summary: Project Leader
+        highlights:
+          - Designed and developed an autonomous community-sharing robot to foster social connection and sustainability through item exchange and collective memory creation.
+          - Demonstrated how robotics can support community belonging and environmental responsibility; the prototype was presented at the HRI 2025 Student Design Competition and was awarded the HRI 2025 Sustainability Recognition.
+
+      - name: Epistemic Logic Modeling of Human Theory of Mind
+        summary: Project Leader
+        highlights:
+          - Developed the Predictive Justified Perspective (PJP) model for representing and predicting higher-order beliefs in dynamic multi-agent environments, with applications to human–robot interaction and epistemic planning.
+          - Investigated bounded human reasoning through pilot user studies (CHI EA, 2025) and predictive belief updates for dynamic epistemic planning using PJP (SoCS, 2026).
+
+      - name: PyPose Open-Source Robotics Library
+        summary: Developer
+        highlights:
+          - Contributed core capabilities to PyPose, an open-source robotics library with 1.6k+ GitHub stars, focusing on point-cloud processing and registration; co-authored the PyPose v0.6 paper presented at the IROS 2023 Workshop.
 
     Experience:
       - company: The University of Melbourne & Boton Technology
@@ -75,15 +114,14 @@ cv:
           - Responsible for system design, autonomous navigation, computer vision, and AI decision-making modules for large-scale industrial deployment.
 
       - company: The University of Melbourne
-        position: Course tutor and project supervisor
+        position: Course Tutor and Project Supervisor
         location: Melbourne, Australia
-        start_date: 2020
+        start_date: 2021
         end_date: Present
-        summary: 
+        summary:
         highlights:
-          - Deliver tutorials and laboratory workshops across multiple engineering and robotics subjects; responsible for preparing teaching materials, designing assessment content, marking assignments and examinations, and providing structured feedback to students.
-          - Co-supervised more than 20 capstone and research projects, guiding students through project planning, experimental design, and implementation. Provided technical mentorship, coordinated weekly progress meeting, and supported students in achieving publishable research outcomes.
-
+          - Deliver tutorials and laboratory workshops across engineering and robotics subjects; prepare teaching materials and assessments, mark assignments and examinations, and provide structured feedback to students.
+          - Co-supervised more than 30 capstone and research projects, providing guidance on project planning, experimental design, implementation, and weekly progress, with selected projects leading to publishable research outcomes.
 
       - company: AI Cubed Academy
         position: Robotics Instructor
@@ -94,14 +132,13 @@ cv:
           - Delivered robotics and programming courses to K-12 students, fostering interest in STEM fields.
           - Developed curriculum and hands-on projects to enhance student engagement and learning outcomes.
 
-
     Volunteer:
       - company: Ausdroid AI and Robotics Student Group
         position: Founder and President
         location: Melbourne, Australia
         start_date: 2017
         end_date: Present
-        summary: 
+        summary:
         highlights:
           - Grew the community to 300 members, organizing regular meetups, workshops, and guest lectures from academic and industry professionals.
           - Established partnerships with local and global tech companies to provide internship and project opportunities for members.
@@ -111,7 +148,7 @@ cv:
       #   location: Suzhou, China
       #   start_date: 2013
       #   end_date: 2014
-      #   summary: 
+      #   summary:
       #   highlights:
 
       - company: Suzhou Ocean Paradise Autistic Children's Rehabilitation Center
@@ -119,7 +156,7 @@ cv:
         location: Suzhou, China
         start_date: 2012-11
         end_date: 2013-11
-        summary: 
+        summary:
         highlights:
 
       - company: Suzhou Full House Charity Shop
@@ -135,67 +172,90 @@ cv:
           - "The University of Melbourne"
         date: 2025-10
         awarder: The University of Melbourne
-        summary: 
+        summary:
 
       - title: Sustainability Recognition Award
         authors:
           - "HRI"
         date: 2025-3
         awarder: 2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)
-        summary: 
+        summary:
 
       - title: Rowden White Scholarship
         authors:
           - "The University of Melbourne"
         date: 2022-12
         awarder: The University of Melbourne
-        summary: 
+        summary:
 
       - title: Melbourne Research Scholarship
         authors:
           - "The University of Melbourne"
         date: 2022-9
         awarder: The University of Melbourne
-        summary: 
+        summary:
 
       - title: ICRA RoboMaster AI Challenge Third Prize
         authors:
           - "IEEE"
         date: 2021, 2019
-        awarder: IEEE International Conference on Robotics and Automation (ICRA) 
-        summary: 
+        awarder: IEEE International Conference on Robotics and Automation (ICRA)
+        summary:
 
       - title: Melbourne Research Scholarship
         authors:
           - "The University of Melbourne"
         date: 2019-7
         awarder: The University of Melbourne
-        summary: 
+        summary:
 
       - title: ICRA RoboMaster AI Challenge Finalist
         authors:
           - "IEEE"
         date: 2018
-        awarder: IEEE International Conference on Robotics and Automation (ICRA) 
-        summary: 
+        awarder: IEEE International Conference on Robotics and Automation (ICRA)
+        summary:
 
     Publications:
+      - title: Spatial Iterative Learning Control for Nonholonomic Robotics With Input Saturation
+        authors:
+          - Xu, Yangmengfei and Tan, Ying and Oetomo, Denny
+        publisher: IEEE/ASME Transactions on Mechatronics
+        releaseDate: 2026
+        url: https://doi.org/10.1109/TMECH.2026.3721852
+        summary: Early access.
+
+      - title: Motor Cost Re-Optimization in Indirect Human Movement Pattern Adaptation
+        authors:
+          - Xu, Yangmengfei and Crocher, Vincent and Fong, Justin and Tan, Ying and Oetomo, Denny
+        publisher: 23rd IFAC World Congress
+        releaseDate: 2026-08
+        summary: Presented in Busan, South Korea.
+
+      - title: "Beyond Static Assumptions: the Predictive Justified Perspective Model for Epistemic Planning"
+        authors:
+          - Hu, Guang and Li, Weijia and Xu, Yangmengfei
+        publisher: Proceedings of the International Symposium on Combinatorial Search
+        releaseDate: 2026-08
+        url: https://doi.org/10.1609/socs.v19i1.43074
+        summary: Volume 19, issue 1, pages 65–73.
+
       - title: Modeling Higher-order Human Beliefs Using the Justified Perspective Model
         authors:
           - Li, Wanchun and Zhang, Chenyuan and Li, Weijia and Hu, Guang and Xu, Yangmengfei
         publisher: ACM CHI EA 25
         releaseDate: 2025-04
         url: https://doi.org/10.1145/3706599.3720223
-        summary: 
+        summary:
 
-      - title: > 
+      - title: >
           From Isolation to Connection: Community Service Robots for Social Cohesion and Sustainability
         authors:
           - Xu, Yangmengfei and Tian, Suxuan and Wang, Guojing and Tang, Bin
         publisher: ACM/IEEE HRI 2025
         releaseDate: 2025-03
         url: https://doi.org/10.1109/HRI61500.2025.10973824
-        summary: 
+        summary:
 
       - title: A Geometry-Based Distributed Connectivity Maintenance Algorithm for Discrete-time Multi-Agent Systems with Visual Sensing Constraints
         authors:
@@ -203,7 +263,7 @@ cv:
         publisher: Unmanned Systems
         releaseDate: 2024
         url: https://doi.org/10.1142/S2301385024410097
-        summary: 
+        summary:
 
       - title: On Active Disturbance Rejection Control for Unmanned Tracked Ground Vehicles with Nonsmooth Disturbances
         authors:
@@ -211,7 +271,7 @@ cv:
         publisher: Unmanned Systems
         releaseDate: 2024
         url: https://doi.org/10.1142/S2301385024500353
-        summary: 
+        summary:
 
       - title: >
           PyPose v0.6: The Imperative Programming Interface for Robotics
@@ -220,7 +280,7 @@ cv:
         publisher: IEEE/RSJ IROS 2023 Workshop
         releaseDate: 2023
         url: https://arxiv.org/abs/2309.13035
-        summary: 
+        summary:
 
       - title: >
           Inducing Human Motor Adaptation Without Explicit Error Feedback: A Motor Cost Approach
@@ -229,7 +289,7 @@ cv:
         publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
         releaseDate: 2021
         url: https://doi.org/10.1109/TNSRE.2021.3096516
-        summary: 
+        summary:
 
       - title: Magnetic-based Soft Tactile Sensors with Deformable Continuous Force Transfer Medium for Resolving Contact Locations in Robotic Grasping and Manipulation
         authors:
@@ -237,40 +297,39 @@ cv:
         publisher: Sensors
         releaseDate: 2019
         url: https://www.mdpi.com/1424-8220/19/22/4925
-        summary: 
-
+        summary:
 
     Skills:
       - name: Programming
         level: Master
-        icon: 
+        icon:
         keywords: Python, C++, C, MATLAB/Simulink, LabVIEW
 
       - name: Tools and Frameworks
         level: Master
-        icon: 
+        icon:
         keywords: ROS/ROS2, PyTorch, CUDA, OpenCV, Docker, Git
 
       - name: CAD Software
         level: Master
-        icon: 
+        icon:
         keywords: SolidWorks
-        
+
       - name: PCB Design
         level: Intermediate
-        icon: 
+        icon:
         keywords: Altium Designer, JLC EDA
 
       - name: Languages
         level: Fluent
-        icon: 
+        icon:
         keywords: English, Chinese
 
     # References:
     #   - name: Professor Denny Oetomo
     #     icon: fa-solid fa-university
-    #     reference: 
+    #     reference:
 
     #   - name: Professor Ying Tan
     #     icon: fa-solid fa-university
-    #     reference: 
+    #     reference:
