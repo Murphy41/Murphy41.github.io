@@ -6,6 +6,10 @@ on:
       - master
     paths:
       - "_data/cv.yml"
+      - "_scripts/prepare_rendercv.py"
+      - "_scripts/test_prepare_rendercv.py"
+      - ".github/workflows/render-cv.yml"
+      - "requirements.txt"
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
@@ -25,6 +29,8 @@ jobs:
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
+      - name: Check CV conversion
+        run: python _scripts/test_prepare_rendercv.py
       - name: RenderCV
         run: |
           cv_file=$(find _data  -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
@@ -42,8 +48,11 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
-          rm assets/rendercv/rendercv_output/*.typ
+          converted_cv="_data/cv.rendercv.yaml"
+          trap 'rm -f "$converted_cv"' EXIT
+          python _scripts/prepare_rendercv.py "$cv_file" "$converted_cv"
+          rendercv render "$converted_cv" --settings "$settings" --design "$rendercv_dir/design.yaml" --locale-catalog "$rendercv_dir/locale.yaml"
+          rm -f assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -53,6 +62,10 @@ jobs:
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -A
+          git add assets/rendercv/rendercv_output/
+          if git diff --cached --quiet; then
+            echo "Rendered CV is unchanged."
+            exit 0
+          fi
           git commit -m "chore: render the latest CV"
           git push
