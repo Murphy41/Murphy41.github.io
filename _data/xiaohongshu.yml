@@ -1,0 +1,4 @@
+# Set both fields to enable the About-page icon. Use the original QR image exported from the app.
+qr_image: /assets/img/xhs.JPG
+account: 11891646766
+nickname: Murphy

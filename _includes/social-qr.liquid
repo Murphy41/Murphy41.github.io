@@ -1,0 +1,25 @@
+<button
+  type="button"
+  class="social-qr-trigger"
+  title="Xiaohongshu / RED"
+  aria-label="Xiaohongshu / RED — show QR code"
+  aria-haspopup="dialog"
+  aria-controls="xiaohongshu-dialog"
+>
+  <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+    <path d="M7 3h19v26H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm0 3a1 1 0 0 0-1 1v14.1A4 4 0 0 1 7 21h16V6Zm0 18a1 1 0 0 0 0 2h16v-2ZM10 10h10v3H10Zm0 6h8v3h-8Z" fill="currentColor"/>
+  </svg>
+</button>
+<dialog id="xiaohongshu-dialog" class="social-qr-modal" aria-labelledby="xiaohongshu-title" aria-describedby="xiaohongshu-instructions">
+  <form method="dialog">
+    <button class="social-qr-close" aria-label="Close" autofocus>×</button>
+  </form>
+  <h2 id="xiaohongshu-title">Xiaohongshu / 小红书</h2>
+  <img src="{{ site.data.xiaohongshu.qr_image | relative_url }}" alt="Xiaohongshu profile QR code" class="social-qr-image" loading="lazy">
+  {% if site.data.xiaohongshu.nickname %}
+    <p>{{ site.data.xiaohongshu.nickname | escape }}</p>
+  {% endif %}
+  <p>小红书号：<strong>{{ site.data.xiaohongshu.account | escape }}</strong></p>
+  <p id="xiaohongshu-instructions">Scan with Xiaohongshu, or search for the account above.</p>
+</dialog>
+<script defer src="{{ '/assets/js/social-qr.js' | relative_url }}"></script>
