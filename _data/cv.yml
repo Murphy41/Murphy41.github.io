@@ -60,8 +60,11 @@ cv:
         highlights:
 
       - institution: The University of Liverpool
+        location: Liverpool, United Kingdom
+        url: https://www.liverpool.ac.uk/
         area: Electrical & Electronic Engineering
         studyType: Bachelor of Engineering (BEng)
+        start_date: 2012
         end_date: 2016
 
       - institution: Xi'an Jiaotong-Liverpool University
