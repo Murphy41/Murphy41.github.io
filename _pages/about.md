@@ -12,8 +12,7 @@ profile:
   image: photo2.PNG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📍 311.49, Space Lab</p>
-    <p>Building 176, University of Melbourne, Parkville, VIC, 3010, Australia</p>
+    <p>University of Melbourne</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
