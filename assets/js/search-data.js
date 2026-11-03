@@ -110,7 +110,15 @@ ninja.data = [{
           description: "A reflection on sharing my robotics research journey with the XJTLU alumni community in Melbourne, and joining Professor Youmin Xi in a roundtable discussion on AI, education, and humanistic perspectives.",
           section: "News",handler: () => {
               window.location.href = "/news/2026-08-08-xjtlu-alumni.html";
-            },},{
+            },},{id: "news-presenting-our-work-on-human-motor-adaptation-at-ifac-2026",
+          title: 'Presenting Our Work on Human Motor Adaptation at IFAC 2026',
+          description: "Highlights from the IFAC World Congress 2026 in Busan, where I presented our work on motor cost re-optimization in indirect human movement pattern adaptation.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-29-ifac-conf.html";
+            },},{id: "news-successfully-completed-my-phd-completion-seminar-at-the-university-of-melbourne-many-thanks-to-my-supervisors-and-colleagues-for-their-support-throughout-this-journey",
+          title: '✅ Successfully completed my PhD completion seminar at the University of Melbourne! Many...',
+          description: "",
+          section: "News",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
